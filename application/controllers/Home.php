@@ -16,6 +16,7 @@ class Home extends CI_Controller {
     }
 
     public function index(){
+        $data['socket_url'] = $this->config->item('socket_url');
         $data['current'] = 'home';
         $data['userdata'] = $this->session->userdata();
         if($this->session->userdata("role") == "admin" ){
@@ -26,7 +27,7 @@ class Home extends CI_Controller {
             $data['ipros'] = $this->ipros_model->get_by_client_id($this->session->userdata("id"));    
         }        
         
-        $this->load->view('templates/header.php', $data);
+        //$this->load->view('templates/header.php', $data);
         $this->load->view('home/index.php', $data);
         $this->load->view('templates/footer.php');
     }

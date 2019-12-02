@@ -6,7 +6,7 @@
         <div class="page-content" >            
             <div class="spinner-feeds" style="text-align: center; margin-top: 200px;"><i class="fa fa-spinner fa-spin fa-3x"></i></div>
             <div class="error-feeds alert alert-danger" style="display:none;margin: 0px;">Sorry seems like we are having some problems displaying the chat!!!</div> 
-            <div class="portlet-body col-md-6" id="chats">
+            <div class="portlet-body col-md-6" id="chats" style="display: none;">
                 <div class="scroller" style="height: 400px;" data-always-visible="1" data-rail-visible1="1">
                    <ul class="chat_block_lists chats">
                    </ul>

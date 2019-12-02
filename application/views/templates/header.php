@@ -150,17 +150,10 @@
                                     <span class="title">Home</span>
                                     <span class="arrow"></span>
                                 </a>
-                            </li>   
-                            <li class="nav-item ">
-                                <a href="/chat/chatRoom" class="nav-link nav-toggle">
-                                    <i class="icon-user"></i>
-                                    <span class="title">Chat</span>
-                                    <span class="arrow"></span>
-                                </a>
-                            </li>           
+                            </li>                                
                         </ul>
                         <!-- END SIDEBAR MENU -->
-                        <!-- END SIDEBAR MENU -->
+                        <!-- END SIDEBAR MENU -->                        
                     </div>
                     <!-- END SIDEBAR -->
                 </div>
